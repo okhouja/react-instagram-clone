@@ -8,6 +8,7 @@ function App() {
 
   return (
     <React.Fragment>
+      <Header></Header>
       {
         // <Gallery posts={posts} />
       }
