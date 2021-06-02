@@ -1,10 +1,23 @@
+// .header {
+//   @include flex-center;
+// }
 .header {
-  @include flex-center;
-}
-.header {
+  // margin: 0 auto;
   border: 2px red dotted;
-  @include flex-center;
   width: 100vw;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.header li {
+  display: inline;
+}
+.header nav ul {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
 }
 .gallery {
   border: 2px black dotted;
