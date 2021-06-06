@@ -28,8 +28,16 @@ body {
   // align-items: center;
   width: 60rem;
 
-  height: 29.6rem;
+  height: 28.3rem;
   // height: 92vh;
+}
+.subHeader {
+  border: 2px deeppink dotted;
+  margin-top: 16rem;
+  display: flex;
+  justify-content: center;
+  width: 60rem;
+  height: 12rem;
 }
 .galleryContainer {
   border: 2px forestgreen dashed;
