@@ -8,7 +8,11 @@ const Gallery = ({ Data }) => {
         Ok
         <div className="subHeader">subHeader</div>
       </section>
-      <div className="galleryContainer">galleryContainer</div>
+      <div className="galleryContainer">
+        galleryContainer
+        <div className="linkGallery">LinkGallery</div>
+        <div className="photosgallery"></div>
+      </div>
     </main>
   );
 };
