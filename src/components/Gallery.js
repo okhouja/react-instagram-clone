@@ -7,7 +7,9 @@ const Gallery = ({ Data }) => {
       <section className="mainHeader">
         Ok
         <div className="heroSection">
-          <div className="heroLogo">Hi</div>
+          <div className="heroLogo">
+            <img className="heroImage" src="./img/Logo_roland_garros.svg"></img>
+          </div>
           <div className="heroInformation">
             <div className="heroLogoInfo">
               Hi
