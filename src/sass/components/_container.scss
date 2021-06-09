@@ -22,7 +22,7 @@ body {
 }
 
 .mainHeader {
-  border: 2px cornflowerblue dotted;
+  border: 2px cornflowerblue dashed;
   margin: auto;
   // display: flex;
   // justify-items: center;
@@ -32,9 +32,15 @@ body {
   height: 28.3rem;
   // height: 92vh;
 }
+
+.pageLogo {
+  border: 2px palevioletred dotted;
+  width: 17rem;
+  height: 10rem;
+}
 .subHeader {
   border: 2px deeppink dotted;
-  margin-top: 15rem;
+  // margin-top: 15rem;
   // display: flex;
   // justify-content: center;
   width: 100%;
