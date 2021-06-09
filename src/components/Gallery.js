@@ -9,8 +9,8 @@ const Gallery = ({ Data }) => {
         <div className="pageLogoHeader">
           <div className="LogoPage">Hi</div>
           <div className="pageLogoInfo">Hi</div>
+          <div className="pageInfo"> pageInfo</div>
         </div>
-        <div className="pageInfo"> pageInfo</div>
         <div className="subHeader">subHeader</div>
       </section>
       <div className="galleryContainer">
