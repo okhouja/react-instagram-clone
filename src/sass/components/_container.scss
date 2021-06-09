@@ -1,7 +1,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  border: 2px yellow dashed;
+  border: 2px yellowgreen dashed;
 }
 .header {
   // margin: 0 auto;
@@ -27,35 +27,44 @@ body {
   // display: flex;
   // justify-items: center;
   // align-items: center;
-  width: 60rem;
+  width: 58rem;
 
   height: 28.3rem;
   // height: 92vh;
 }
 
-.pageLogoHeader {
+.heroSection {
   border: 2px palevioletred dotted;
   display: flex;
   width: 100%;
-  height: 10rem;
+  height: 50%;
 }
-.LogoPage {
+.heroLogo {
   border: 2px goldenrod dashed;
-  width: 10rem;
-  height: 10rem;
+  width: 40%;
+  height: 90%;
 }
-.pageLogoInfo {
-  border: 2px crimson dashed;
-  width: 20rem;
-  height: 3rem;
-}
-.pageInfo {
-  border: 2px dodgerblue dashed;
-  margin: auto;
+.heroInformation {
   display: flex;
-  justify-content: flex-start;
-  align-self: center;
-  width: 25rem;
+  flex-direction: column;
+  width: 100%;
+}
+.heroLogoInfo {
+  border: 2px crimson dashed;
+  width: 100%;
+  height: 6rem;
+}
+.heroNumbers {
+  border: 2px lawngreen dashed;
+  height: 70%;
+}
+.heroInfo {
+  border: 2px dodgerblue dashed;
+  // margin: auto;
+  display: flex;
+  // justify-content: flex-start;
+  // align-self: center;
+  width: 100%;
   height: 15rem;
 }
 .subHeader {

@@ -6,10 +6,15 @@ const Gallery = ({ Data }) => {
       woow
       <section className="mainHeader">
         Ok
-        <div className="pageLogoHeader">
-          <div className="LogoPage">Hi</div>
-          <div className="pageLogoInfo">Hi</div>
-          <div className="pageInfo"> pageInfo</div>
+        <div className="heroSection">
+          <div className="heroLogo">Hi</div>
+          <div className="heroInformation">
+            <div className="heroLogoInfo">
+              Hi
+              <div className="heroNumbers">Numbers</div>
+            </div>
+            <div className="heroInfo"> pageInfo</div>{" "}
+          </div>
         </div>
         <div className="subHeader">subHeader</div>
       </section>
