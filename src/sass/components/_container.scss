@@ -33,9 +33,21 @@ body {
   // height: 92vh;
 }
 
-.pageLogo {
+.pageLogoHeader {
   border: 2px palevioletred dotted;
-  width: 17rem;
+  width: 100%;
+  height: 10rem;
+}
+.LogoPage {
+  border: 2px goldenrod dashed;
+  width: 2rem;
+}
+.pageLogoInfo {
+  border: 2px crimson dashed;
+  width: 20rem;
+}
+.pageInfo {
+  border: 2px dodgerblue dashed;
   height: 10rem;
 }
 .subHeader {

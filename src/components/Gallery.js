@@ -5,8 +5,12 @@ const Gallery = ({ Data }) => {
     <main className="mainContainer">
       woow
       <section className="mainHeader">
-        Ok <div className="pageLogo"> </div>
-        <div className="pageInfo"> </div>
+        Ok
+        <div className="pageLogoHeader">
+          <div className="LogoPage">Hi</div>
+          <div className="pageLogoInfo">Hi</div>
+        </div>
+        <div className="pageInfo"> pageInfo</div>
         <div className="subHeader">subHeader</div>
       </section>
       <div className="galleryContainer">
