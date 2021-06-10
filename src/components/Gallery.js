@@ -40,7 +40,14 @@ const Gallery = ({ Data }) => {
       </section>
       <div className="galleryContainer">
         galleryContainer
-        <div className="linkGallery">LinkGallery</div>
+        <div className="linkGallery">
+          <ul>
+            <li>Posts</li>
+            <li>REELS</li>
+            <li>IGTV</li>
+            <li>TAGGED</li>
+          </ul>
+        </div>
         <div className="photosgallery"></div>
       </div>
     </main>
