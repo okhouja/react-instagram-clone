@@ -13,7 +13,11 @@ const Gallery = ({ Data }) => {
           <div className="heroInformation">
             <div className="heroLogoInfo">
               Hi
-              <div className="heroNumbers">Numbers</div>
+              <div className="heroNumbers">
+                <div>3,802 posts</div>
+                <div>1.8m followers</div>
+                <div>407 following</div>
+              </div>
             </div>
             <div className="heroInfo"> pageInfo</div>{" "}
           </div>

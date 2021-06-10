@@ -57,6 +57,13 @@ body {
 .heroNumbers {
   border: 2px lawngreen dashed;
   height: 70%;
+  width: 54%;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  justify-self: center;
+  align-content: center;
+  align-self: center;
 }
 .heroInfo {
   border: 2px dodgerblue dashed;
