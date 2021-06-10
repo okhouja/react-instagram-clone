@@ -26,7 +26,14 @@ const Gallery = ({ Data }) => {
                 <div>407 following</div>
               </div>
             </div>
-            <div className="heroInfo"> pageInfo</div>{" "}
+            <div className="heroInfo">
+              Roland-Garros Roland-Garros tennis - Grand Slam account. From 24
+              May to 13 June 2021 #RolandGarros
+              <span>
+                www.rolandgarros.com Followed by rogerfedererthelegend,
+                borisbeckerofficial, atptour +5 more
+              </span>
+            </div>
           </div>
         </div>
         <div className="subHeader">subHeader</div>
