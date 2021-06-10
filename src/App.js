@@ -4,13 +4,14 @@ import Gallery from "./components/Gallery";
 import Data from "./data.json";
 
 function App() {
-  const [posts, setPosts] = useState(Data);
+  const [posts, setPosts] = useState([]);
+
+  //console.log(Data);
 
   return (
     <React.Fragment>
       <Header />
-      {/* <Gallery posts={posts} /> */}
-      <Gallery Data={Data} />
+      <Gallery posts={Data} />
     </React.Fragment>
   );
 }

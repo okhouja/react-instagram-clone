@@ -1,5 +1,5 @@
-const Gallery = ({ Data }) => {
-  console.log(Data);
+const Gallery = ({ posts }) => {
+  console.log(posts);
 
   return (
     <main className="mainContainer">
@@ -48,7 +48,11 @@ const Gallery = ({ Data }) => {
             <li>TAGGED</li>
           </ul>
         </div>
-        <div className="photosgallery"></div>
+        <div className="photosgallery">
+          {posts.map((el) => (
+            <img src={`./img/img.${el.img}`} key={el.id} />
+          ))}
+        </div>
       </div>
     </main>
   );

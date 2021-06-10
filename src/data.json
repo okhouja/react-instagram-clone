@@ -3,84 +3,84 @@
     "id": 1,
     "likes": 15005,
     "comments": 23,
-    "img": "./img/img.1.png"
+    "img": "1.png"
   },
   {
     "id": 2,
     "likes": 50400,
     "comments": 82,
-    "img": "./img/img.2.png"
+    "img": "2.png"
   },
   {
     "id": 3,
     "likes": 32005,
     "comments": 185,
-    "img": "./img/img.3.png"
+    "img": "3.png"
   },
   {
     "id": 4,
     "likes": 40046,
     "comments": 142,
-    "img": "./img/img.4.png"
+    "img": "4.png"
   },
   {
     "id": 5,
     "likes": 197542,
     "comments": 80,
-    "img": "./img/img.5.png"
+    "img": "5.png"
   },
   {
     "id": 6,
     "likes": 5354,
     "comments": 23423,
-    "img": "./img/img.6.png"
+    "img": "6.png"
   },
   {
     "id": 7,
     "likes": 7526,
     "comments": 233,
-    "img": "./img/img.7.png"
+    "img": "7.png"
   },
   {
     "id": 8,
     "likes": 71857,
     "comments": 23423,
-    "img": "./img/img.8.png"
+    "img": "8.png"
   },
   {
     "id": 9,
     "likes": 57567,
     "comments": 234,
-    "img": "./img/img.9.png"
+    "img": "9.png"
   },
   {
     "id": 10,
-    "likes": 47661,
+    "likes": 578,
     "comments": 234,
-    "img": "./img/img.10.png"
+    "img": "10.png"
   },
   {
     "id": 11,
     "likes": 65791,
     "comments": 234,
-    "img": "./img/img.11.png"
+    "img": "11.png"
   },
   {
     "id": 12,
     "likes": 45570,
     "comments": 234,
-    "img": "./img/img.12.png"
+    "img": "12.png"
   },
   {
     "id": 13,
     "likes": 13457,
     "comments": 234,
-    "img": "./img/img.13.png"
+    "img": "13.png"
   },
   {
     "id": 14,
     "likes": 127067,
     "comments": 234,
-    "img": "./img/img.14.png"
+    "img": "14.png"
   }
 ]
