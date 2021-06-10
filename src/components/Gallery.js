@@ -12,7 +12,14 @@ const Gallery = ({ Data }) => {
           </div>
           <div className="heroInformation">
             <div className="heroLogoInfo">
-              Hi
+              <ul>
+                <li>rolandgarros</li>
+                <li>Message</li>
+                <li>following</li>
+                <li>suggest</li>
+                <li>more options</li>
+              </ul>
+
               <div className="heroNumbers">
                 <div>3,802 posts</div>
                 <div>1.8m followers</div>
