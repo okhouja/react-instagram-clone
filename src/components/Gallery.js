@@ -51,6 +51,7 @@ const Gallery = ({ posts }) => {
         <div className="photosgallery">
           {posts.map((el) => (
             <img src={`./img/img.${el.img}`} key={el.id} />
+            // <p></p>
           ))}
         </div>
       </div>
