@@ -8,7 +8,10 @@ const Gallery = ({ posts }) => {
         Ok
         <div className="heroSection">
           <div className="heroLogo">
-            <img className="heroImage" src="./img/Logo_roland_garros.svg"></img>
+            <img
+              className="heroImage"
+              src={`${process.env.PUBLIC_URL}/img/Logo_roland_garros.svg`}
+            ></img>
           </div>
           <div className="heroInformation">
             <div className="heroLogoInfo">

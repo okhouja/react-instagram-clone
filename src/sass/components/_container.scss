@@ -117,11 +117,11 @@ body {
 }
 .photosgallery {
   border: 2px rosybrown dotted;
-
+  // @include flex-center;
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
   gap: 2rem;
-  align-content: stretch;
+  // align-items: center;
   flex-flow: row wrap;
   // flex-wrap: wrap;
   // margin-top: -1rem;
