@@ -23,7 +23,6 @@ const Header = () => {
             <img src={`${process.env.PUBLIC_URL}/img/icon/activity.png`}></img>
           </li>
           <li>
-            {" "}
             <img src={`${process.env.PUBLIC_URL}/img/icon/user.png`}></img>
           </li>
         </ul>
