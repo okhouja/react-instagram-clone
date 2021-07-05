@@ -3,9 +3,7 @@ const Gallery = ({ posts }) => {
 
   return (
     <main className="mainContainer">
-      woow
       <section className="mainHeader">
-        Ok
         <div className="heroSection">
           <div className="heroLogo">
             <img

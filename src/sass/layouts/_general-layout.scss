@@ -12,7 +12,7 @@
 }
 .logoNav {
   border: 2px blue dashed;
-  margin-left: 60px;
+  // margin-left: 60px;
   display: flex;
   // position: absolute;
 }
@@ -45,4 +45,31 @@ input[type="text"] {
   font-size: 1rem;
   text-align: center;
   // @include flex-center;
+}
+
+@media screen and (max-width: 500px) {
+  .search {
+    // border: 2px red dotted;
+    display: none;
+    // justify-content: center;
+    // align-items: center;
+    // align-content: center;
+    // width: 12rem;
+    // margin-left: 90px;
+    // padding-right: 110px;
+  }
+  .header {
+    border: 2px black dotted;
+    display: flex;
+    justify-content: flex-start;
+    width: 30rem;
+    // padding-right: 1rem;
+  }
+  .logoNav {
+    border: 2px red dotted;
+    display: flex;
+    justify-content: flex-start;
+    // padding-left: 2rem;
+    width: 12rem;
+  }
 }
