@@ -53,6 +53,7 @@ const Gallery = ({ posts }) => {
             <img
               src={`${process.env.PUBLIC_URL}/img/img${el.img}`}
               key={el.id}
+              id="photogallery"
             />
             // <p></p>
           ))}
