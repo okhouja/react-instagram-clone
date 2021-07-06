@@ -1,19 +1,25 @@
 body {
   width: 100vw;
   height: 100vh;
-  border: 2px yellowgreen dashed;
+  // border: 2px yellowgreen dashed;
+  background-color: rgba(211, 211, 211, 0.13);
+}
+#header__container {
+  border-bottom: 1px lightgray solid;
+  background-color: white;
 }
 .header {
   margin: auto;
-  border: 2px red dotted;
+  // border: 2px red dotted;
   width: 59rem;
   height: 3.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  // background-color: white;
   // position: relative;
   nav ul {
-    border: 2px blue dotted;
+    // border: 2px blue dotted;
 
     display: flex;
     justify-content: space-around;
@@ -29,14 +35,14 @@ body {
 
 .mainContainer {
   // margin: 2% auto;
-  border: 2px red dashed;
+  // border: 2px red dashed;
   width: 99vw;
   // height: 29.6rem;
   height: 92vh;
 }
 
 .mainHeader {
-  border: 0.12rem lightgray dotted;
+  // border: 0.12rem lightgray dotted;
   margin: 2.3rem auto;
   // display: flex;
   // justify-items: center;
@@ -48,13 +54,13 @@ body {
 }
 //                                     === Hero Section ===
 .heroSection {
-  border: 2px palevioletred dotted;
+  // border: 2px palevioletred dotted;
   display: flex;
   width: 100%;
   height: 50%;
 }
 .heroLogo {
-  border: 2px goldenrod dashed;
+  // border: 2px goldenrod dashed;
   width: 40%;
   height: 90%;
 }
@@ -64,7 +70,7 @@ body {
   width: 100%;
 }
 .heroLogoInfo {
-  border: 2px crimson dashed;
+  // border: 2px crimson dashed;
   width: 100%;
   height: 6rem;
   ul {
@@ -75,7 +81,7 @@ body {
   }
 }
 .heroNumbers {
-  border: 2px lawngreen dashed;
+  // border: 2px lawngreen dashed;
   height: 70%;
   width: 54%;
   display: flex;
@@ -86,7 +92,7 @@ body {
   align-self: center;
 }
 .heroInfo {
-  border: 2px dodgerblue dashed;
+  // border: 2px dodgerblue dashed;
   // margin: auto;
   display: flex;
   // justify-content: flex-start;
@@ -121,21 +127,21 @@ body {
 
 //                                      === SubHeader ===
 .subHeader {
-  border: 2px deeppink dotted;
+  // border: 2px deeppink dotted;
   // margin-top: 15rem;
   // display: flex;
   // justify-content: center;
   width: 100%;
   height: 12rem;
   ul {
-    border: 2px turquoise dotted;
+    // border: 2px turquoise dotted;
     @include flex-center;
     flex-direction: row;
     height: 12rem;
     list-style-type: none;
   }
   li {
-    border: 2px springgreen dotted;
+    // border: 2px springgreen dotted;
     width: 9rem;
     @include flex-center;
     flex-direction: column;
@@ -177,10 +183,11 @@ body {
     list-style-type: none;
   }
   li {
-    // border-top: 1px black solid;
+    border-top: 1px black solid;
 
     @include flex-center;
     font-weight: bold;
+    font-size: 0.9rem;
 
     // display: flex;
     // justify-content: space-around;
@@ -199,7 +206,7 @@ body {
   }
 }
 .photosgallery {
-  border: 2px rosybrown dotted;
+  // border: 2px rosybrown dotted;
   // @include flex-center;
   display: flex;
   // justify-content: space-between;
