@@ -35,12 +35,12 @@ body {
 }
 
 .mainHeader {
-  border: 2px cornflowerblue dashed;
+  border: 2px darkslategrey dashed;
   margin: auto;
   // display: flex;
   // justify-items: center;
   // align-items: center;
-  width: 59rem;
+  width: 95%;
 
   height: 28.3rem;
   // height: 92vh;
@@ -92,6 +92,13 @@ body {
   // align-self: center;
   width: 100%;
   height: 15rem;
+  ul {
+    list-style-type: none;
+    font-size: large;
+  }
+  #heroBold {
+    font-weight: bold;
+  }
 }
 
 //                                      === SubHeader ===

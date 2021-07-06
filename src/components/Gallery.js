@@ -28,12 +28,21 @@ const Gallery = ({ posts }) => {
               </div>
             </div>
             <div className="heroInfo">
-              Roland-Garros Roland-Garros tennis - Grand Slam account. From 24
-              May to 13 June 2021 #RolandGarros
-              <span>
-                www.rolandgarros.com Followed by rogerfedererthelegend,
-                borisbeckerofficial, atptour +5 more
-              </span>
+              <ul>
+                <li id="heroBold">Roland-Garros</li>
+                <li>
+                  Roland-Garros tennis - Grand Slam account. From 24 May to 13
+                  June 2021
+                </li>
+                <li>#RolandGarros</li>
+                <li>www.rolandgarros.com</li>
+                <li>
+                  Followed by rogerfedererthelegend, borisbeckerofficial,
+                  atptour +5 more
+                </li>
+              </ul>
+
+              <span></span>
             </div>
           </div>
         </div>
