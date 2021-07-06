@@ -54,39 +54,45 @@ const Gallery = ({ posts }) => {
           <ul>
             <li>
               <img
-                className="heroImage"
+                className="storyImage"
                 src={`${process.env.PUBLIC_URL}/img/stories/1.png`}
               ></img>
+              <label>FINALS</label>
             </li>
             <li>
               <img
-                className="heroImage"
+                className="storyImage"
                 src={`${process.env.PUBLIC_URL}/img/stories/2.png`}
               ></img>
+              <label>SEMIS</label>
             </li>
             <li>
               <img
-                className="heroImage"
+                className="storyImage"
                 src={`${process.env.PUBLIC_URL}/img/stories/3.png`}
               ></img>
+              <label>QUARTERS</label>
             </li>
             <li>
               <img
-                className="heroImage"
+                className="storyImage"
                 src={`${process.env.PUBLIC_URL}/img/stories/4.png`}
               ></img>
+              <label>4TH ROUND</label>
             </li>
             <li>
               <img
-                className="heroImage"
+                className="storyImage"
                 src={`${process.env.PUBLIC_URL}/img/stories/5.png`}
               ></img>
+              <label>3RD ROUND</label>
             </li>
             <li>
               <img
-                className="heroImage"
+                className="storyImage"
                 src={`${process.env.PUBLIC_URL}/img/stories/6.png`}
               ></img>
+              <label>2ND ROUND</label>
             </li>
           </ul>
         </div>

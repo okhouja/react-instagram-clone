@@ -37,7 +37,7 @@ body {
 
 .mainHeader {
   border: 2px darkslategrey dashed;
-  margin: 2% auto;
+  margin: 2.3rem auto;
   // display: flex;
   // justify-items: center;
   // align-items: center;
@@ -137,8 +137,12 @@ body {
   li {
     border: 2px springgreen dotted;
     width: 9rem;
-    // @include flex-center;
-    // flex-direction: row;
+    @include flex-center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0.4rem;
+    font-weight: bold;
+    font-size: 0.9rem;
   }
 }
 //                                      === Gallery ===
