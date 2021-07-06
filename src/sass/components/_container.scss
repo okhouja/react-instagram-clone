@@ -159,13 +159,18 @@ body {
 .linkGallery {
   border: 2px gray double;
   // margin-top: -1rem;
-  // display: flex;
+  @include flex-center; // display: flex;
   // justify-content: center;
   width: 100%;
-  height: 2rem;
+  height: 2.5rem;
   ul {
+    border: 2px violet dotted;
+
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
+    width: 38rem;
+    height: 2rem;
     // display: inline;
     list-style-type: none;
   }

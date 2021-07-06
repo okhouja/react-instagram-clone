@@ -98,7 +98,6 @@ const Gallery = ({ posts }) => {
         </div>
       </section>
       <div className="galleryContainer">
-        galleryContainer
         <div className="linkGallery">
           <ul>
             <li>Posts</li>
