@@ -100,10 +100,35 @@ const Gallery = ({ posts }) => {
       <div className="galleryContainer">
         <div className="linkGallery">
           <ul>
-            <li>Posts</li>
-            <li>REELS</li>
-            <li>IGTV</li>
-            <li>TAGGED</li>
+            <li>
+              <img
+                className="gallreyLinkImage"
+                src={`${process.env.PUBLIC_URL}/img/posts.png`}
+              ></img>
+              <label>Posts</label>
+            </li>
+            <li>
+              <img
+                className="gallreyLinkImage"
+                src={`${process.env.PUBLIC_URL}/img/reels.png`}
+              ></img>
+              <label>REELS</label>
+            </li>
+            <li>
+              <img
+                className="gallreyLinkImage"
+                src={`${process.env.PUBLIC_URL}/img/igtv.png`}
+              ></img>
+              <label>IGTV</label>
+            </li>
+            <li>
+              {" "}
+              <img
+                className="gallreyLinkImage"
+                src={`${process.env.PUBLIC_URL}/img/tagged.png`}
+              ></img>
+              <label>TAGGED</label>
+            </li>
           </ul>
         </div>
         <div className="photosgallery">
