@@ -4,16 +4,16 @@ body {
   border: 2px yellowgreen dashed;
 }
 .header {
-  // margin: 0 auto;
+  margin: auto;
   border: 2px red dotted;
-  width: 100%;
+  width: 59rem;
   height: 3.2rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   // position: relative;
   nav ul {
-    // border: 2px blue dotted;
+    border: 2px blue dotted;
 
     display: flex;
     justify-content: space-around;
@@ -29,7 +29,7 @@ body {
 
 .mainContainer {
   border: 2px red dashed;
-  width: 100%;
+  width: 99vw;
   // height: 29.6rem;
   height: 92vh;
 }
@@ -40,7 +40,7 @@ body {
   // display: flex;
   // justify-items: center;
   // align-items: center;
-  width: 95%;
+  width: 59rem;
 
   height: 28.3rem;
   // height: 92vh;
@@ -94,10 +94,27 @@ body {
   height: 15rem;
   ul {
     list-style-type: none;
+    font-weight: 400;
     font-size: large;
   }
   #heroBold {
     font-weight: bold;
+  }
+  #heroInfoLastLine {
+    display: flex;
+    margin: 2% auto;
+    align-items: center;
+    flex-direction: row;
+    font-size: small;
+  }
+  #likes {
+    padding-left: 1%;
+    font-size: small;
+    color: black;
+  }
+  span {
+    color: grey;
+    font-size: small;
   }
 }
 

@@ -36,9 +36,13 @@ const Gallery = ({ posts }) => {
                 </li>
                 <li>#RolandGarros</li>
                 <li>www.rolandgarros.com</li>
-                <li>
-                  Followed by rogerfedererthelegend, borisbeckerofficial,
-                  atptour +5 more
+                <li id="heroInfoLastLine">
+                  <span>Followed by </span>
+                  <div id="likes"> rogerfedererthelegend</div>
+                  <span>,</span>
+                  <div id="likes">borisbeckerofficial</div>
+                  <span>,</span>
+                  <div id="likes">atptour</div> <span>+5 more</span>
                 </li>
               </ul>
 
