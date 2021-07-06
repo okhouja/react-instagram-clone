@@ -50,7 +50,46 @@ const Gallery = ({ posts }) => {
             </div>
           </div>
         </div>
-        <div className="subHeader">subHeader</div>
+        <div className="subHeader">
+          <ul>
+            <li>
+              <img
+                className="heroImage"
+                src={`${process.env.PUBLIC_URL}/img/stories/1.png`}
+              ></img>
+            </li>
+            <li>
+              <img
+                className="heroImage"
+                src={`${process.env.PUBLIC_URL}/img/stories/2.png`}
+              ></img>
+            </li>
+            <li>
+              <img
+                className="heroImage"
+                src={`${process.env.PUBLIC_URL}/img/stories/3.png`}
+              ></img>
+            </li>
+            <li>
+              <img
+                className="heroImage"
+                src={`${process.env.PUBLIC_URL}/img/stories/4.png`}
+              ></img>
+            </li>
+            <li>
+              <img
+                className="heroImage"
+                src={`${process.env.PUBLIC_URL}/img/stories/5.png`}
+              ></img>
+            </li>
+            <li>
+              <img
+                className="heroImage"
+                src={`${process.env.PUBLIC_URL}/img/stories/6.png`}
+              ></img>
+            </li>
+          </ul>
+        </div>
       </section>
       <div className="galleryContainer">
         galleryContainer

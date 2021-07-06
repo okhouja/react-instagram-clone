@@ -28,6 +28,7 @@ body {
 }
 
 .mainContainer {
+  // margin: 2% auto;
   border: 2px red dashed;
   width: 99vw;
   // height: 29.6rem;
@@ -36,7 +37,7 @@ body {
 
 .mainHeader {
   border: 2px darkslategrey dashed;
-  margin: auto;
+  margin: 2% auto;
   // display: flex;
   // justify-items: center;
   // align-items: center;
@@ -126,6 +127,19 @@ body {
   // justify-content: center;
   width: 100%;
   height: 12rem;
+  ul {
+    border: 2px turquoise dotted;
+    @include flex-center;
+    flex-direction: row;
+    height: 12rem;
+    list-style-type: none;
+  }
+  li {
+    border: 2px springgreen dotted;
+    width: 9rem;
+    // @include flex-center;
+    // flex-direction: row;
+  }
 }
 //                                      === Gallery ===
 
