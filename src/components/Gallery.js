@@ -100,13 +100,15 @@ const Gallery = ({ posts }) => {
       <div className="galleryContainer">
         <div className="linkGallery">
           <ul>
-            <li id="activeGalleryLink">
-              <img
-                className="gallreyLinkImage"
-                src={`${process.env.PUBLIC_URL}/img/posts.png`}
-              ></img>
-              <label>Posts</label>
-            </li>
+            <div id="aGLBorder">
+              <li id="activeGalleryLink">
+                <img
+                  className="gallreyLinkImage"
+                  src={`${process.env.PUBLIC_URL}/img/posts.png`}
+                ></img>
+                <label>POSTS</label>
+              </li>
+            </div>
             <li>
               <img
                 className="gallreyLinkImage"
