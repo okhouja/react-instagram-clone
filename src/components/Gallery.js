@@ -135,12 +135,17 @@ const Gallery = ({ posts }) => {
         </div>
         <div className="photosgallery">
           {posts.map((el) => (
-            <img
-              src={`${process.env.PUBLIC_URL}/img/img${el.img}`}
-              key={el.id}
-              id="photogallery"
-            />
-            // <p></p>
+            <li>
+              <img
+                src={`${process.env.PUBLIC_URL}/img/img${el.img}`}
+                key={el.id}
+                id="photogallery"
+              />
+              <div className="image__overlay">
+                <div className="image__title"></div>
+                {el.likes}
+              </div>
+            </li>
           ))}
         </div>
       </div>
