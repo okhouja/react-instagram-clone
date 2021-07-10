@@ -222,7 +222,7 @@ body {
   }
 }
 .photosgallery {
-  border: 2px rosybrown dotted;
+  // border: 2px rosybrown dotted;
   // @include flex-center;
   display: flex;
   // justify-content: space-between;
@@ -240,7 +240,7 @@ body {
   //   opacity: 0.5;
   // }
   li {
-    border: 2px rgb(163, 39, 39) dashed;
+    // border: 2px rgb(163, 39, 39) dashed;
     position: relative;
     width: 17.5rem;
     height: 17.5rem;
@@ -258,7 +258,7 @@ body {
     // }
   }
   .image__overlay {
-    border: 2px rgb(47, 255, 255) solid;
+    // border: 2px rgb(47, 255, 255) solid;
     position: absolute;
     top: 0;
     left: 0;
@@ -266,14 +266,15 @@ body {
     // margin-top: -1rem;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
     color: white;
+    font-size: 1.2rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     // width: 100;
 
-    opacity: 1;
+    opacity: 0;
 
     &:hover {
       // margin-top: -15rem;
@@ -282,26 +283,35 @@ body {
       transition: 0.5s;
     }
     .image__title {
-      border: 2px rgb(122, 112, 150) solid;
+      // border: 2px rgb(122, 112, 150) solid;
       display: flex;
       justify-content: flex-end;
+      gap: 0.3rem;
       width: 30%;
       // padding-left: 3rem;
+      .likeonImage {
+        // background: black;
+        width: 1.3rem;
+      }
     }
     .image__comments {
-      border: 2px rgb(122, 112, 150) solid;
+      // border: 2px rgb(122, 112, 150) solid;
       width: 10%;
       display: flex;
       justify-content: flex-start;
       width: 30%;
+      gap: 0.3rem;
 
+      .commentonImage {
+        width: 1.3rem;
+      }
       // padding-right: 3rem;
     }
   }
 }
 
 #photogallery {
-  border: 2px greenyellow solid;
+  // border: 2px greenyellow solid;
   // position: absolute;
   // top: 0;
   // left: 0;

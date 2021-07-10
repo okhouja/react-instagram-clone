@@ -142,9 +142,21 @@ const Gallery = ({ posts }) => {
                 id="photogallery"
               />
               <div className="image__overlay">
-                <div className="image__title">{el.likes}</div>
+                <div className="image__title">
+                  <img
+                    className="likeonImage"
+                    src={`${process.env.PUBLIC_URL}/img/like.svg`}
+                  ></img>
+                  {el.likes}
+                </div>
 
-                <div className="image__comments">{el.comments}</div>
+                <div className="image__comments">
+                  <img
+                    className="commentonImage"
+                    src={`${process.env.PUBLIC_URL}/img/comment.svg`}
+                  ></img>
+                  {el.comments}
+                </div>
               </div>
             </li>
           ))}
