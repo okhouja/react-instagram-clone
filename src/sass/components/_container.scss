@@ -269,11 +269,11 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     // width: 100;
 
-    opacity: 0;
+    opacity: 1;
 
     &:hover {
       // margin-top: -15rem;
@@ -283,7 +283,19 @@ body {
     }
     .image__title {
       border: 2px rgb(122, 112, 150) solid;
-      width: 5%;
+      display: flex;
+      justify-content: flex-end;
+      width: 30%;
+      // padding-left: 3rem;
+    }
+    .image__comments {
+      border: 2px rgb(122, 112, 150) solid;
+      width: 10%;
+      display: flex;
+      justify-content: flex-start;
+      width: 30%;
+
+      // padding-right: 3rem;
     }
   }
 }

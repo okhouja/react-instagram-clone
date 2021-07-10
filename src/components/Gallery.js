@@ -142,8 +142,9 @@ const Gallery = ({ posts }) => {
                 id="photogallery"
               />
               <div className="image__overlay">
-                <div className="image__title"></div>
-                {el.likes}
+                <div className="image__title">{el.likes}</div>
+
+                <div className="image__comments">{el.comments}</div>
               </div>
             </li>
           ))}
