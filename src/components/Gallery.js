@@ -109,35 +109,44 @@ const Gallery = ({ posts }) => {
         <div className="linkGallery">
           <ul>
             <div id="aGLBorder">
-              <li id="activeGalleryLink">
+              <a href="#">
+                <li id="activeGalleryLink">
+                  <img
+                    className="gallreyLinkImage"
+                    src={`${process.env.PUBLIC_URL}/img/posts.png`}
+                  ></img>
+                  POSTS
+                </li>
+              </a>
+            </div>
+            <a href="#">
+              <li>
                 <img
                   className="gallreyLinkImage"
-                  src={`${process.env.PUBLIC_URL}/img/posts.png`}
+                  src={`${process.env.PUBLIC_URL}/img/reels.png`}
                 ></img>
-                <label>POSTS</label>
+                REELS
               </li>
-            </div>
-            <li>
-              <img
-                className="gallreyLinkImage"
-                src={`${process.env.PUBLIC_URL}/img/reels.png`}
-              ></img>
-              <label>REELS</label>
-            </li>
-            <li>
-              <img
-                className="gallreyLinkImage"
-                src={`${process.env.PUBLIC_URL}/img/igtv.png`}
-              ></img>
-              <label>IGTV</label>
-            </li>
-            <li>
-              <img
-                className="gallreyLinkImage"
-                src={`${process.env.PUBLIC_URL}/img/tagged.png`}
-              ></img>
-              <label>TAGGED</label>
-            </li>
+            </a>
+            <a href="#">
+              <li>
+                <img
+                  className="gallreyLinkImage"
+                  src={`${process.env.PUBLIC_URL}/img/igtv.png`}
+                ></img>
+                IGTV
+              </li>
+            </a>
+
+            <a href="#">
+              <li>
+                <img
+                  className="gallreyLinkImage"
+                  src={`${process.env.PUBLIC_URL}/img/tagged.png`}
+                ></img>
+                TAGGED
+              </li>
+            </a>
           </ul>
         </div>
         <div className="photosgallery">
