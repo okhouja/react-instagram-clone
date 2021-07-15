@@ -30,9 +30,9 @@ const Gallery = ({ posts }) => {
               </ul>
 
               <div className="heroNumbers">
-                <div>3,802 posts</div>
-                <div>1.8m followers</div>
-                <div>407 following</div>
+                <div>3,856 posts</div>
+                <div>1.9m followers</div>
+                <div>410 following</div>
               </div>
             </div>
             <div className="heroInfo">
