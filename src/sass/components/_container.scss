@@ -70,7 +70,7 @@ body {
   width: 100%;
 }
 .heroLogoInfo {
-  // border: 2px crimson dashed;
+  border: 2px crimson dashed;
   width: 100%;
   height: 6rem;
   ul {
@@ -78,8 +78,14 @@ body {
     justify-content: space-between;
     // display: inline;
     list-style-type: none;
+
+    #logotext {
+      border: 2px violet dashed;
+      font-size: 2rem;
+    }
   }
 }
+
 .heroNumbers {
   // border: 2px lawngreen dashed;
   height: 70%;

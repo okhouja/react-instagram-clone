@@ -22,7 +22,7 @@ const Gallery = ({ posts }) => {
           <div className="heroInformation">
             <div className="heroLogoInfo">
               <ul>
-                <li>rolandgarros</li>
+                <li id="logotext">rolandgarros</li>
                 <li>Message</li>
                 <li>following</li>
                 <li>suggest</li>
