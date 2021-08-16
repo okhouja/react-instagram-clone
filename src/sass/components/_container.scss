@@ -80,8 +80,11 @@ body {
     list-style-type: none;
 
     #logotext {
-      border: 2px violet dashed;
-      font-size: 2rem;
+      // border: 2px violet dashed;
+      font-size: 1.7rem;
+      font-weight: bold;
+      display: flex;
+      gap: 0.5rem;
     }
   }
 }

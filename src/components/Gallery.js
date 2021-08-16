@@ -22,7 +22,13 @@ const Gallery = ({ posts }) => {
           <div className="heroInformation">
             <div className="heroLogoInfo">
               <ul>
-                <li id="logotext">rolandgarros</li>
+                <li id="logotext">
+                  rolandgarros
+                  <img
+                    className="heroImage"
+                    src={`${process.env.PUBLIC_URL}/img/verifie_badge.png`}
+                  ></img>
+                </li>
                 <li>Message</li>
                 <li>following</li>
                 <li>suggest</li>
