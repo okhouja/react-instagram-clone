@@ -29,10 +29,10 @@ const Gallery = ({ posts }) => {
                     src={`${process.env.PUBLIC_URL}/img/verifie_badge.png`}
                   ></img>
                 </li>
-                <li>Message</li>
-                <li>following</li>
-                <li>suggest</li>
-                <li>more options</li>
+                <li id="message">Message</li>
+                <li id="following">following</li>
+                <li id="suggest">suggest</li>
+                <li id="moreOption">more options</li>
               </ul>
 
               <div className="heroNumbers">
